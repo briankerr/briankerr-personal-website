@@ -1,0 +1,79 @@
+.about {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.250em;
+	line-height: 1.5;
+}
+.name {
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* --- Changing Link Behavior --- */
+
+.body a,
+.body a:visited {
+	text-decoration: none;
+	color: #2d6299;
+}
+.body a:hover {
+	background-color: #2d6299;
+	color: white;
+}
+
+/* --- Header --- */
+
+.header {
+	width: 100%;
+	height: 250px;
+	background: #2d6299;
+	border-bottom: .2em solid #214972;
+}
+.profile-photo {
+  display: block;	
+  margin: auto;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  max-width: 150px;
+  border-radius: 100%;
+}
+.name {
+	text-align: center;
+	color: white;
+}
+
+/* --- Body --- */
+
+.body {
+	width: 100%;
+}
+
+.about {
+	margin: auto;
+	margin-top: 10px;
+	width: 55%;
+}
+
+/* --- Footer --- */
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #2d6299;
+	color: white;
+	text-align: center;
+	height: 10px;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* --- Media Query --- */
+
+@media screen and (max-width: 768px) {
+	.about {
+		/*margin: auto;*/
+		margin-top: 10px;
+		width: 95%;
+}
